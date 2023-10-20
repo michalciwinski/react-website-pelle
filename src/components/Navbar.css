@@ -1,0 +1,136 @@
+
+h2{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem, 2rem;
+    position: sticky;
+    top:0;
+    background: var(--White);
+    z-index: 100
+}
+
+.logo{
+    width:3rem;
+    height: 100%;
+    
+}
+.logo img{
+    width:6rem;
+    height: 100%;
+    text-align: center;
+    margin-left:1rem;
+}
+
+
+
+
+  /*MOBILE VERSION */
+
+@media only screen and (max-width: 600px){
+  
+    .menu{
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: var(--Black);
+        height:100vh;
+        width: 100vw;
+        background: var(--Yellow);
+        position: absolute;
+        left:0;
+        top:0;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+        list-style: none;
+    }
+    .menu.active {
+        transform: translateX(0);
+        color:var(--Black);
+    }
+
+    .burger{
+        width: 2.0rem;
+        height: 2.0rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border:none;
+        background: transparent;
+        position:relative;
+        transition: all 0.3s ease-in-out;
+        margin-right: 0.6rem;
+        margin-top: 0.6rem;
+    }
+    .burger span{
+        width: 100%;
+        height: 0.2rem;
+        background-color: var(--Black);
+        border-radius: 0.4rem;
+        transition: all 0.3s ease-in-out;
+    }
+    .burger.active {
+        z-index: 10;
+    }
+
+    .burger.active > span{
+        background: var(--Black);
+    }
+
+    .burger.active > span:nth-child(1){
+        transform: rotate(-45deg) translateY(0.7rem) translateX(-1.0rem);
+
+    }
+    .burger.active > span:nth-child(2){
+        transform: rotate(45deg) translateY(0.5rem) translateX(0.3rem);
+    }
+    .burger.active > span:nth-child(3){
+        background: transparent;
+    }
+
+}
+
+/*DESKTOP VERSION */
+
+@media only screen and (min-width: 601px){
+
+    .menu{
+        list-style: none;
+        position:unset;
+        color:var(--Black);
+        display:flex;
+        flex-direction: row;
+        height:inherit;
+        width: max-content;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: var(--Black);
+        font-weight: normal;
+        align-items: center;
+        gap:3rem;
+        margin-right: 1rem;
+    }
+
+    .menu-link{
+        background: var(--Yellow);
+        border-radius: 1rem;
+        cursor: pointer;
+        padding: 0.4em;
+    }
+
+    .burger{
+        display:none;
+    }
+
+    
+}

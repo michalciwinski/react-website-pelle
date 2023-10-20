@@ -1,10 +1,25 @@
 import './App.css';
-
+import Navbar from './components/Navbar.js';
+import Main from './components/Main.js';
+import Services from './components/Services.js';
+import Realizations from './components/Realizations.js';
+import Contact from './components/Contact.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
+
+      <Navbar/>
+
+      <Main/>
+
+      <Services/>
+
+      <Realizations/>
+
+      <Contact/>
+
+      
     </div>
   );
 }
