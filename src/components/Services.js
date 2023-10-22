@@ -4,13 +4,15 @@ import style from './Services.css'
 export default function Services() {
   return (
     <div className='services-container'>
-        <div className='services'>asa
-        <div className='services-card'>
-                <div className='services-card-title'>
-                        Renowacja tapicerki skórzanej
-                </div>
+        <h2>Nasze usługi</h2>
+        <div className='services'>
+
+            <div className='services-card'>
                 <div className='services-card-img'>
                         <img src="/images/leather.png" alt="Logo" />
+                </div>
+                <div className='services-card-title'>
+                        Renowacja tapicerki skórzanej
                 </div>
                 <div className='services-card-info'>
                 Proces przywracania oryginalnego wyglądu skóry za pomocą fabrycznych technologii oraz materiałów najwyższej jakości. 
@@ -21,11 +23,11 @@ export default function Services() {
             </div>
 
             <div className='services-card'>
-                <div className='services-card-title'>
-                        Renowacja plastików 
-                </div>
                 <div className='services-card-img'>
                         <img src="/images/plastic.png" alt="Logo" />
+                </div>
+                <div className='services-card-title'>
+                        Renowacja plastików 
                 </div>
                 <div className='services-card-info'>
                 Częstą bolączką starszych samochodów są łuszczące oraz klejące się plastiki.. 

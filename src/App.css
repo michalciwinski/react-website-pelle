@@ -16,7 +16,7 @@ body{
 
 :root{
   --Black: #2B2629;
-  --Yellow: #FFFACD;
+  --Yellow: #c7bf74; /* --Yellow: #FFFACD; */
   --White: white;
 }
 
