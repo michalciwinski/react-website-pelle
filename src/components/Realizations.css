@@ -41,14 +41,22 @@
         width:100%;
         height: auto;
         margin: 3rem 0rem 4rem 0;
-        color:var(--White)
+        color:var(--White);
     }
+    
     .realizations-container h2{
-        margin: 1rem 0rem 1rem 0;
-        padding-top:1rem;
+        margin: 2rem 0rem 1rem 0;
+        padding-top: 1rem;
         height: auto;
-        font-size: 0.8rem;
+        width:100%;
+        font-size: 1.2rem;
         text-align: center;
-        
     }
+
+    .realizations img{
+        width: 85%;
+        display: block;
+        margin: 1rem auto;
+    }
+
 }

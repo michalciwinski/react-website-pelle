@@ -17,7 +17,7 @@ function Navbar() {
           <ul className='menu'>
                   <li id='Usługi' className='menu-link'><a onClick={() => document.getElementById('services-container').scrollIntoView({ behavior: 'smooth' })}>Usługi</a></li>
                   <li id='Portfolio' className='menu-link'><a onClick={() => document.getElementById('Portfolio').scrollIntoView({ behavior: 'smooth' })}>Portfolio</a></li>
-                  <li id='O mnie'  className='menu-link'><a onClick={() => document.getElementById('O mnie').scrollIntoView({ behavior: 'smooth' })}>O mnie</a></li>
+                 {/* <li id='O mnie'  className='menu-link'><a onClick={() => document.getElementById('O mnie').scrollIntoView({ behavior: 'smooth' })}>O mnie</a></li>*/}
                   <li id='Kontakt' className='menu-link'><a onClick={() => document.getElementById('Kontakt').scrollIntoView({ behavior: 'smooth' })}>Kontakt</a></li>
           </ul>
           
