@@ -18,7 +18,7 @@ body{
 
 :root{
   --Black: #2B2629;
-  --Yellow: #c7bf74; /* --Yellow: #FFFACD; */
+  --Yellow: RGB(216,199,173); /* --Yellow: #FFFACD; */
   --White: white;
 
   --shadow: rgba(0, 0, 0, 0.062) 0px 3px 5px;

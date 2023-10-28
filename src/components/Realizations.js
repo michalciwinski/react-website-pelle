@@ -1,18 +1,31 @@
 import React from 'react'
-import style from './Realizations.css'
+import {} from './Realizations.css'
 
-export default function Realizations() {
+
+
+//const Realizations = forwardRef((props, ref) => {
+  function Realizations() {
+
+  let items = ["/images/1.jpg","/images/2.jpg","/images/3.jpg",
+                "/images/5.jpg","/images/12.jpg","/images/6.jpg",
+                "/images/7.jpg","/images/8.jpg",
+                "/images/10.jpg","/images/11.jpg","/images/4.jpg",
+                "/images/13.jpg","/images/9.jpg","/images/14.jpg",
+                "/images/15.jpg","/images/16.jpg","/images/17.jpg",
+                "/images/18.jpg"
+];//here write path to picture
+
   return (
-    <div className='realizations-container'>
-        <h2>NASZE PORTFOLIO</h2>
-        <div className='realizations'>
-            <img src="/images/Realization1.png" alt="Logo1" />
-            <img src="/images/Realization6.png" alt="Logo2" />
-            <img src="/images/Realization2.png" alt="Logo3" />
-            <img src="/images/Realization3.png" alt="Logo4" />
-            <img src="/images/Realization5.png" alt="Logo5" />
-            <img src="/images/Realization4.png" alt="Logo6" />
-        </div>
-    </div>
+      <div className='realizations-container' id='idrealizations' >
+          <h2>NASZE REALIZACJE</h2>
+          <div className='realizations'>
+                {items.map((item)=> (
+                    <img key={item} src={item} alt='picture'></img>
+                ))}
+          </div>
+      </div>
   )
-}
+};
+
+
+export default Realizations;

@@ -8,7 +8,9 @@
 /*DESKTOP VERSION */
 
 @media only screen and (min-width: 601px){
-    
+    .contact-container{
+        padding-top: 3rem;
+    }
 
     .contact-container h2{
         display: block;

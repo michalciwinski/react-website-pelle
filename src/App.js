@@ -6,27 +6,26 @@ import Realizations from './components/Realizations.js';
 import Contact from './components/Contact.js';
 import Footer from './components/Footer.js';
 
+
 function App() {
+
   return (
     <div className="App">
+        <Navbar/>
 
-      <Navbar/>
+        <Main/>
 
-      <Main/>
+        <Services/>
 
-      <Services/>
+        <Realizations/>
 
-      <Realizations/>
+        <Contact/>
 
-      <Contact/>
-
-      <Footer/>
+        <Footer/>
+      
       
     </div>
   );
 }
-
-
-
 
 export default App;

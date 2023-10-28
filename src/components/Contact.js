@@ -1,9 +1,9 @@
 import React from 'react'
-import style from './Contact.css'
+import {} from './Contact.css'
 
-export default function Contact() {
-  return (
-    <div className='contact-container'>
+function Contact() {  
+return (
+    <div className='contact-container' id='idcontact'>
       <h2>Kontakt</h2>
       <div className='contact'>
         <h3>Błażej Skórski</h3>
@@ -35,16 +35,19 @@ export default function Contact() {
         </div>
         {/*
         <div className='localization-item'>
-            <h3>Szalowa 445</h3>
+            <h3>Szalowa </h3>
             <div className='google-map'>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.192702643024!2d21.021204845302407!3d49.67862132411733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473dc1ecd6fa9b4b%3A0x5d5b7be0ce244d5b!2sSzalowa%20445%2C%2038-331%20Szalowa!5e0!3m2!1spl!2spl!4v1697985437470!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
         </div>
-  */}
+      */}
       </div>
 
 
     </div>
+
   )
-}
+};
+
+export default Contact;
