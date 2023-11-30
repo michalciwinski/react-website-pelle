@@ -1,3 +1,12 @@
+#Business Card 
+This React app is simple static webpage without backend. 
+
+During development (pictures to change.. wrong size of pictures..)
+
+Included Mobile view.
+Page divided into components.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
