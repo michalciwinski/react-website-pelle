@@ -1,4 +1,5 @@
-#Business Card 
+# Business Card 
+
 This React app is simple static webpage without backend. 
 
 During development (pictures to change.. wrong size of pictures..)
