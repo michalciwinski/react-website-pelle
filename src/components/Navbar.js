@@ -48,7 +48,7 @@ function Navbar() {
     <>
         <header>
           <div className='logo'>
-            <a href="/"><img src="/images/logo.png" alt="Logo" /></a> {/*SHOULD BE LINK ! - redirection inside application*/}
+            <a href="/"><img src="/icons/LOGO.png" alt="Logo" /></a> {/*SHOULD BE LINK ! - redirection inside application*/}
           </div>
           {/*<div className='phonenumber'>
             <img src="/icons/phone.png" alt="Logo" />

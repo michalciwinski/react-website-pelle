@@ -9,6 +9,9 @@
   font-family:'Montserrat', sans-serif;
 }
 
+html{
+  overflow-x: hidden;
+}
 
 body{
   font-size: 10px;
