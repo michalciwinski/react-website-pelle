@@ -16,7 +16,7 @@ import {} from './Realizations.css'
   let items = ["/images/1.jpg","/images/2.jpg","/images/3.jpg",
       "/images/4.jpg","/images/5.jpeg","/images/6.jpeg",
       "/images/7.jpeg","/images/8.jpeg",
-      "/images/9.jpeg","/images/10.jpeg","/images/11.jpeg"
+      "/images/9.jpeg","/images/10.jpeg","/images/11.jpeg","/images/15.jpeg"
 ];//here write path to picture
 
 
