@@ -19,6 +19,7 @@ import {} from './Realizations.css'
       "/images/9.jpeg","/images/10.jpeg","/images/11.jpeg"
 ];//here write path to picture
 
+
   return (
       <div className='realizations-container' id='idrealizations' >
           <h2>PRZYKŁADOWE REALIZACJE</h2>
