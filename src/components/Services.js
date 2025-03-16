@@ -14,7 +14,7 @@ function Services() {
                                         Renowacja tapicerki skórzanej
                                 </div>
                                 <div className='services-card-img'>
-                                        <img src="/images/leather.png" alt="Logo" />
+                                        <img src="/images/leather2.png" alt="Logo" />
                                 </div>
                                 <div className='services-card-info'>
                                 Proces przywracania oryginalnego wyglądu skóry za pomocą fabrycznych technologii oraz materiałów najwyższej jakości. 
@@ -23,13 +23,29 @@ function Services() {
                                 To wszystko sprawia, że trwałość oraz wygląd naprawionej powierzchni porównywalny jest do fabrycznej tapicerki !
                                 </div>
                         </div>
+                        
+                        <div className='services-card'>
+                                <div className='services-card-title'>
+                                        Korekta lakieru / polerka + aplikacja powłok ochronnych
+                                </div>
+                                <div className='services-card-img'>
+                                        <img src="/images/car.png" alt="Logo" />
+                                </div>
+                                <div className='services-card-info'>
+                                Zabieg usuwania rys z lakieru, którego celem jest wydobycie blasku karoserii.
+                                Jedno etapowa ( one step ) - likwidacja licznych, ale płytkich mikrorys. 
+                                Dwu etapowa - likwidacja rys średniej oraz małej głębokości. 
+                                Trzy etapowa - pełna korekta lakieru. 
+                                Aplikacja powłok ochronnych po wykonanej renowacji lakieru. 
+                                </div>
+                        </div>
 
                         <div className='services-card'>
                                 <div className='services-card-title'>
                                         Renowacja plastików 
                                 </div>
                                 <div className='services-card-img'>
-                                        <img src="/images/plastic.png" alt="Logo" />
+                                        <img src="/images/plastic2.png" alt="Logo" />
                                 </div>
                                 <div className='services-card-info'>
                                 Częstą bolączką starszych samochodów są łuszczące oraz klejące się plastiki.. 
@@ -66,17 +82,30 @@ function Services() {
 
                         <div className='services-card'>
                                 <div className='services-card-title'>
-                                        Korekta lakieru / polerka + aplikacja powłok ochronnych
+                                        Naprawa podsufitki
                                 </div>
                                 <div className='services-card-img'>
-                                        <img src="/images/car.png" alt="Logo" />
+                                        <img src="/images/headliner.png" alt="Logo" />
                                 </div>
                                 <div className='services-card-info'>
-                                Zabieg usuwania rys z lakieru, którego celem jest wydobycie blasku karoserii. <br/>
-                                Jedno etapowa ( one step ) - likwidacja licznych, ale płytkich mikrorys. <br/>
-                                Dwu etapowa - likwidacja rys średniej oraz małej głębokości. <br/>
-                                Trzy etapowa - pełna korekta lakieru.  <br/>
-                                Aplikacja powłok ochronnych po wykonanej renowacji lakieru. <br/>
+                                Istnieje tylko jeden sposób, aby wyglądało to estetycznie i było trwałe.
+                                Usuwamy stary materiał i zastępujemy go nowym, ponieważ  jest on
+                                pod spodem laminowany gąbką, która zostaje utleniona i dlatego materiał obwisa. 
+                                Nie ma możliwości ponownego klejenia uszkodzonego materiału.
+                                </div>
+                        </div>
+
+                        <div className='services-card'>
+                                <div className='services-card-title'>
+                                        Naprawa mebli skórzanych
+                                </div>
+                                <div className='services-card-img'>
+                                        <img src="/images/forniture.png" alt="Logo" />
+                                </div>
+                                <div className='services-card-info'>
+                                Jeśli nie chcesz pozbywać się swoich mebli, ale ich czas świetności minął,
+                                również mamy na to sposób. Niektóre z napraw wykonujemy z dojazdem do klienta,
+                                a w ciężkich przypadkach transportujemy meble do naszego warsztatu.
                                 </div>
                         </div>
 

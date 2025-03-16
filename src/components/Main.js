@@ -5,7 +5,7 @@ export default function Main() {
   return (
 
         <div className='picturemain'>
-            <img src="/images/audi.jpg" alt="Logo" />
+            <img src="/images/main.jpeg" alt="Logo" />
 
             <div className='text1'>Zaufaj naszej sztuce!</div>
             <div className='text2'>PELLE</div>

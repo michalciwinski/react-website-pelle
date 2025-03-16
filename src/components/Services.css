@@ -1,5 +1,6 @@
 /*DESKTOP VERSION */
 
+
 @media only screen and (min-width: 601px){
 
     .services-container{
@@ -50,18 +51,26 @@
         margin-bottom: 1rem;
         border-bottom: 0.2rem solid var(--Yellow);
         /*text-shadow: -1px 1px 0.7px rgb(8, 8, 8);*/
-        
+        font-family: "Alegreya Sans SC", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
     }
 
     .services-card-img{
         width: 40%;
         height: auto;
-        margin-top: 3rem;
-        margin-left: 25%;
+        margin-top: 2rem;
+        /*margin-left: 25%;*/
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin: 0 auto;
     }
 
     .services-card-info{
         font-size: 0.8rem;
+        text-align: justify;
     }
 
 
@@ -112,20 +121,19 @@
         margin-bottom: 1.1rem;
         border-bottom: 0.2rem solid var(--Yellow);
         /*text-shadow: -1px 1px 0.7px rgb(8, 8, 8);*/
-
     }
 
     .services-card-img{
         display: block;
         width: 40%;
         height: auto;
-        margin-top: 3rem;
+        margin-top: 2rm;
         margin-left: 25%;
 
     }
 
     .services-card-info{
-
+        text-align: justify;
     }
 
 }

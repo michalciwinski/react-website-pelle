@@ -1,7 +1,7 @@
-
 .picturemain{
     margin: 0 auto;
     display: block;
+    position: relative;
 }
 
 img { 
@@ -13,88 +13,84 @@ img {
     border-top-left-radius: 0.5rem;
 }
 
-
-
 /*DESKTOP VERSION */
 @media only screen and (min-width: 851px){
-
 
 .text1{
     position: absolute;
     width: 100%;
-    top:30%;
+    top: 30vh;
     left: 50%; 
     transform: translate(-50%, -50%);
     color: var(--White);
-    font-size: 7rem;
-    font-weight:initial;
+    font-size: 7vw;
+    font-weight: initial;
     text-align: center;
 }
 
 .text2{
     position: absolute;
     width: 100%;
-    top:55%;
+    top: 55vh;
     left: 50%; 
     transform: translate(-50%, -50%);
     color: var(--White);
-    font-size: 5rem;
-    font-weight:900;
+    font-size: 5vw;
+    font-weight: 900;
     text-align: center;
 }
+
 .text3{
     position: absolute;
     width: 100%;
-    top:70%;
+    top: 70vh;
     left: 50%; 
     transform: translate(-50%, -50%);
     color: var(--White);
-    font-size: 4rem;
-    font-weight:500;
+    font-size: 4vw;
+    font-weight: 500;
     text-align: center;
 }
 }
 
 /*MOBILE VERSION */
-
 @media only screen and (max-width: 850px){
     .text1{
         position: absolute;
         width: 100%;
-        top:22%;
+        top: 22vh;
         left: 50%; 
         transform: translate(-50%, -50%);
         color: var(--White);
         font-size: 2.8rem;
-        font-weight:initial;
+        font-weight: initial;
         text-align: center;
         font-family: Montserrat;
     }
     .text2{
         position: absolute;
         width: 100%;
-        top:29%;
+        top: 35vh; /* Increased from 29vh to 35vh */
         left: 50%; 
         transform: translate(-50%, -50%);
         color: var(--White);
         font-size: 2.5rem;
-        font-weight:900;
+        font-weight: 900;
         text-align: center;
     }
     .text3{
         position: absolute;
         width: 100%;
-        top:36%;
+        top: 48vh; /* Increased from 36vh to 48vh */
         left: 50%; 
         transform: translate(-50%, -50%);
         color: var(--White);
         font-size: 1.8rem;
-        font-weight:500;
+        font-weight: 500;
         text-align: center;
     }
     img { 
         width: 120%;
         height: auto;
     }
-
 }

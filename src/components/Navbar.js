@@ -16,6 +16,11 @@ function Navbar() {
     else if(elementId === 'Usługi'){
       document.getElementById('idservices').scrollIntoView({ behavior: 'smooth' });
     }
+    //hide menu after clicking an option
+    const menu = document.querySelector('.menu');
+    const burger = document.querySelector('.burger');
+    menu.classList.remove('active');
+    burger.classList.remove('active');
   }
 
   const toggleBurger = () => {
