@@ -10,7 +10,7 @@ import { useEffect } from "react"
 
 function App() {
   useEffect(() => {
-    document.title = "Pelle Renowacja"; // ← Twój nowy tytuł
+    document.title = "Pelle Renowacja"; 
   }, []);
   return (
     <div className="App">

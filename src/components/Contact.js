@@ -9,6 +9,10 @@ return (
         <h3>Błażej Skórski</h3>
         <h3>+48 696 746 181</h3>
         <h3>blazejskorski23@gmail.com</h3>
+        <h3></h3>
+        <h3>Dawid Goliasz</h3>
+        <h3>+48 513 158 306 </h3>
+        <h3>Dawid.goliasz@gmail.com</h3>
 
         <a href="https://www.instagram.com/pelle.serwistapicerki/" target="_blank" rel="noreferrer">
           <img 

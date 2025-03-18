@@ -9,7 +9,7 @@ export default function Main() {
 
             <div className='text1'>Zaufaj naszej sztuce!</div>
             <div className='text2'>PELLE</div>
-            <div className='text3'>Studio renowacji pojazdów</div>
+            <div className='text3'>Studio renowacji</div>
 
         </div>
 

@@ -33,9 +33,9 @@ function Services() {
                                 </div>
                                 <div className='services-card-info'>
                                 Zabieg usuwania rys z lakieru, którego celem jest wydobycie blasku karoserii.
-                                Jedno etapowa ( one step ) - likwidacja licznych, ale płytkich mikrorys. 
-                                Dwu etapowa - likwidacja rys średniej oraz małej głębokości. 
-                                Trzy etapowa - pełna korekta lakieru. 
+                                Jednoetapowa ( one step ) - likwidacja licznych, ale płytkich mikrorys. 
+                                Dwuetapowa - likwidacja rys średniej oraz małej głębokości. 
+                                Trzyetapowa - pełna korekta lakieru. 
                                 Aplikacja powłok ochronnych po wykonanej renowacji lakieru. 
                                 </div>
                         </div>
