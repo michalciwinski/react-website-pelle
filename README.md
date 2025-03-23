@@ -2,7 +2,7 @@
 
 This React app is simple static webpage without backend. 
 
-During development (pictures to change.. wrong size of pictures..)
+Link to hosted webpage: https://www.pellerenowacja.pl/
 
 Included Mobile view.
 Page divided into components.
