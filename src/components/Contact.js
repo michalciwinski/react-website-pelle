@@ -34,7 +34,11 @@ return (
         <div className='localization-item'>
             <h3>Kraków, Aleja Solidarności 20</h3>
             <div className='google-map'>
-                <iframe src="https://www.google.com/maps/embed/v1/place?q=Aleja+Solidarności+20&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="800" height="600"></iframe>
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?q=Aleja+Solidarności+20,+31-998+Kraków,+Polska&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                  width="800"
+                  height="600"
+                ></iframe>
             </div>
         </div>
         
