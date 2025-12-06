@@ -32,10 +32,10 @@ return (
       <h2>Lokalizacja</h2>
       <div className='localization'>
         <div className='localization-item'>
-            <h3>Kraków, Aleja Solidarności 20</h3>
+            <h3>Kraków, Półłanki 80</h3>
             <div className='google-map'>
                 <iframe
-                  src="https://www.google.com/maps/embed/v1/place?q=Aleja+Solidarności+20,+31-998+Kraków,+Polska&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1654.682926107395!2d20.042565482762107!3d50.037410430224426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473dc1461dc742a1%3A0x59148dac7276dd2!2sPELLE%20Renowacja%20tapicerki%20sk%C3%B3rzanej%20I%20Auto%20Detailing%20%7C%20Polerowanie%20lakieru%20%7C%20Pow%C5%82oki%20ochronne%20%7C%20Naprawa%20podsufitki!5e1!3m2!1spl!2sau!4v1764992409952!5m2!1spl!2sau"     
                   width="800"
                   height="600"
                 ></iframe>
